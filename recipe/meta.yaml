@@ -1,5 +1,5 @@
 {% set name = "flytekitplugins-awsbatch" %}
-{% set version = "1.2.6" %}
+{% set version = "1.2.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/flytekitplugins-awsbatch-{{ version }}.tar.gz
-  sha256: 1ca995a92932df5ced93f450cf9d138531438e53a24b995aaa40709d973a9626
+  sha256: 966fa70ddc1c3dbe16308e06805008c1ea1a64aada85ca587593291702f2d2b6
 
 build:
   number: 0
